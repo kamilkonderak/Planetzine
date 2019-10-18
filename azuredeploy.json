@@ -68,11 +68,11 @@
       },
       {
         "locationName": "[parameters('3rdLocation')]",
-        "failoverPriority": 1
+        "failoverPriority": 2
       },
       {
         "locationName": "[parameters('4thLocation')]",
-        "failoverPriority": 1
+        "failoverPriority": 3
       }
     ],
     "cosmosDbLocations": "[if(variables('createSecondaryLocation'), variables('cosmosDbLocations2'), variables('cosmosDbLocations1'))]"
