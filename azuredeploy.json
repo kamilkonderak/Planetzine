@@ -60,7 +60,7 @@
     "cosmosDbLocations2": [
       {
         "locationName": "[variables('siteLocation')]",
-        "failoverPriority": 0
+        "failoverPriority": 4
       },
       {
         "locationName": "[parameters('secondaryLocation')]",
